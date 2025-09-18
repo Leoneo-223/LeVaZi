@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levazi Customs | Gallery</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/nav-bar.css">
+    <link rel="stylesheet" href="../css/projects-page.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body>
+    <section id="home" class="nav-01">
+        <div class="logo"> 
+            <img src="../img/lvz.gif" alt="Logo">
+            <h1>LeVaZi</h1>
+        </div>
+        <nav class="nav-bar">
+            <a href="../index.html"><button>Home</button></a>
+            <a href="../index.html"><button>About</button></a>
+            <a href="../index.html"><button>Projects</button></a>
+            <a href="https://discord.gg/EfYhGDW2Ju"><button>Discord</button></a>
+        </nav>
+    </section>
+
+    <div class="main">
+
+    </div>
+
+    <footer class="nav-02">
+        <div class="copyright">
+            <p class="p3"> © 2025 LeVaZi Official website.</p>
+        </div>
+    </footer>
+
+    <script>
+        const imagesCount = 27;
+        const imagesContainer = document.querySelector(".main");
+    
+        for (let i = imagesCount; i >= 1; i--) {
+            const img = document.createElement('img');
+            img.src = `../img/projects/proj${i}.png`;
+            img.alt = `Screenshot ${i}`;
+            imagesContainer.appendChild(img);
+        }
+    </script>
+</body>
+</html>

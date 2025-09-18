@@ -1,0 +1,66 @@
+.projects {
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 100px;
+}
+
+.projects .projects-intro {
+    color: white;
+    font-size: 72px;
+    padding-bottom: 0px;
+}
+
+/*==============================*/
+
+.proj-img-contatiner {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.proj-img-contatiner img {
+    width: 200px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+
+.proj-img-contatiner img:hover {
+    width: 300px;
+}
+
+/*==============================*/
+
+.projects button {
+    box-sizing: border-box; 
+    width: 120px;           
+    padding: 10px 22px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    background-color: black;
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;    
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 450ms ease, box-shadow 450ms ease, background-color 150ms linear, color 150ms linear;
+}
+
+.projects button:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+    box-shadow:
+      0 -6px 12px rgba(255,255,255,0.9),
+      0 6px 12px rgba(255, 255, 255, 0.9),
+      0 0 22px rgba(255,255,255,0.6);
+}
