@@ -32,15 +32,13 @@
 .intro {
     position: relative;
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
     color: white;
+    text-align: center; 
+    max-width: 800px;   
+    margin: 0 auto;     
 }
 
 .intro h1 {
-    display: flex;
-    justify-content: center;
     font-size: 72px;
     margin-bottom: 30px;
 }
