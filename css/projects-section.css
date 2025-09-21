@@ -38,7 +38,7 @@
 
 /*==============================*/
 
-.projects button {
+.projects .more, .home {
     box-sizing: border-box; 
     width: 120px;           
     padding: 10px 22px;
@@ -55,7 +55,7 @@
     transition: transform 450ms ease, box-shadow 450ms ease, background-color 150ms linear, color 150ms linear;
 }
 
-.projects button:hover {
+.projects .home:hover ,.more:hover {
     transform: scale(1.05);
     background-color: white;
     color: black;
@@ -63,4 +63,57 @@
       0 -6px 12px rgba(255,255,255,0.9),
       0 6px 12px rgba(255, 255, 255, 0.9),
       0 0 22px rgba(255,255,255,0.6);
+}
+
+/*==============================*/
+
+.projects-website {
+    margin-top: 50px;
+    height: auto;
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.v3no-web {
+    height: 180px;
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+.v3no-web h3 {
+    font-size: 28px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.v3no-web button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: transform 450ms ease, box-shadow 450ms ease, background-color 150ms linear, color 150ms linear;
+}
+
+
+.v3no-web button:hover {
+    color: red;
+    border: 2px solid red;
+    transform: scale(1.05);
+    box-shadow:
+      0 -6px 12px rgba(255, 0, 0, 0.9),
+      0 6px 12px rgba(255, 0, 0, 0.9),
+      0 0 22px rgb(255, 0, 0);
 }
